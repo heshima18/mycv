@@ -1,0 +1,101 @@
+/* styles for index.html */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    padding: 0 100px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 30px 0;
+}
+
+.top-header> * {
+    width: auto;
+    height: auto;
+}
+
+.top-header-left h1{
+    margin-bottom: 15px;
+}
+
+.top-header-right img {
+    border-radius: 50%;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    min-width: ;
+}
+
+.experience h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #73808D;
+}
+
+.experience-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.experience-item > * {
+    margin: 5px 0;
+}
+
+.experience-item .duration {
+    font-size: .8rem;
+    font-weight: 500;
+    color: #73808D;
+}
+
+.experience-item p:last-child {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.right-side > * {
+    margin-bottom: 30px;
+}
+
+.right-side p, .right-side .title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #73808D;
+    padding: 5px 0;
+}
+.nav{
+    display: none;
+}
+
+.right-side .title {
+    font-weight: 800;
+}
+@media screen and (max-width: 780px){
+    .container{
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 530px){
+    .left-side{
+        width: 100%;
+    }
+    .nav{
+        display: grid;
+    }
+}
